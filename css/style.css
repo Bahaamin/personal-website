@@ -1,0 +1,131 @@
+/* font-face rules */
+
+@font-face {
+    font-family: 'Open Sans Variable';
+    src: url('../fonts/OpenSans-VariableFont.woff2') format('woff2'), url('../fonts/OpenSans-VariableFont.woff') format('woff');
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Variable';
+    src: url('../fonts/OpenSans-Italic-VariableFont.woff2') format('woff2'), url('../fonts/OpenSans-Italic-VariableFont.woff') format('woff');
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Variable';
+    src: url('../fonts/Roboto-VariableFont.woff2') format('woff2'), url('../fonts/Roboto-VariableFont.woff') format('woff');
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Variable';
+    src: url('../fonts/Roboto-Italic-VariableFont.woff2') format('woff2'), url('../fonts/Roboto-Italic-VariableFont.woff') format('woff');
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Universal Styles */
+
+html {
+    font-family: 'Open Sans Variable', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #17141E;
+}
+
+header, footer {
+    background-color: #1B3677;
+}
+
+section {
+    background-color: #101F47;
+}
+
+a {
+    color: #F5EC00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Variable', sans-serif;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #CAF0FE;
+}
+
+.bold, .section-title {
+    color: #00C7FC;
+}
+
+
+/* Header */
+
+
+header {
+    height: 4.375rem;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+header .container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    flex: 0 0 auto;
+    margin-right: 2rem;
+}
+
+header nav {
+    flex-basis: 18.75rem;
+    min-width: 12.5rem;
+    font-size: 1.125rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: #CAF0FE;
+}
