@@ -44,6 +44,22 @@ html {
     line-height: 1.5;
 }
 
+body {
+    background-color: #17141E;
+}
+
+header, footer {
+    background-color: #1B3677;
+}
+
+section {
+    background-color: #101F47;
+}
+
+a {
+    color: #F5EC00;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Variable', sans-serif;
     line-height: 1.2;
@@ -66,6 +82,11 @@ h3 {
 
 p {
     margin-bottom: 1rem;
+    color: #CAF0FE;
+}
+
+.bold, .section-title {
+    color: #00C7FC;
 }
 
 
