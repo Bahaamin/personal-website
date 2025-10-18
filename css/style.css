@@ -96,6 +96,7 @@ p {
 header {
     height: 4.375rem;
     width: 100%;
+    border-bottom: 1px solid gray;
 }
 
 header .container {
@@ -117,9 +118,14 @@ header h1 {
 header nav {
     flex-basis: 18.75rem;
     min-width: 12.5rem;
+    font-size: 1.125rem;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-between;
+}
+
+header a {
+    color: #CAF0FE;
 }
