@@ -45,11 +45,11 @@
 html {
 	font-family: 'Open Sans Variable', sans-serif;
 	font-size: 16px;
-	line-height: 1.5;
 }
 
 body {
 	background-color: #17141e;
+    line-height: 1.5;
 }
 
 header,
