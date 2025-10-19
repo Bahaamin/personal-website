@@ -152,6 +152,7 @@ section#about-me {
 
 #about-me .container {
 	display: flex;
+    justify-content: space-between;
 }
 
 #about-me .title {
