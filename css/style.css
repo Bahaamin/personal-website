@@ -158,6 +158,10 @@ section#about-me {
     margin-bottom: 1rem;
 }
 
+#about-me article {
+    text-align: justify;
+}
+
 #about-me figure {
     margin-left: 3.125rem;
 }
