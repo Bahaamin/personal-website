@@ -153,3 +153,11 @@ section#about-me {
 #about-me .container {
 	display: flex;
 }
+
+#about-me .title {
+    margin-bottom: 1rem;
+}
+
+#about-me figure {
+    margin-left: 3.125rem;
+}
