@@ -174,3 +174,9 @@ section#about-me {
     max-height: 21.875rem;
     overflow: hidden;
 }
+
+#about-me figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
