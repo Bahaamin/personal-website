@@ -180,3 +180,19 @@ section#about-me {
     height: auto;
     border-radius: 1rem;
 }
+
+/* Certifications & Skills */
+
+section#certs-skills {
+	width: 85%;
+	max-width: calc(1280px * 0.85);
+	border-radius: 0.5rem;
+	padding:  2rem 2rem;
+}
+
+/* Certifications */
+
+
+
+/* Skills */
+
