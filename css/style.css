@@ -190,6 +190,11 @@ section#certs-skills {
 	padding:  2rem 2rem;
 }
 
+#certs-skills .title {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
 /* Certifications */
 
 
