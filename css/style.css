@@ -45,11 +45,11 @@
 html {
 	font-family: 'Open Sans Variable', sans-serif;
 	font-size: 16px;
-	line-height: 1.5;
 }
 
 body {
 	background-color: #17141e;
+    line-height: 1.5;
 }
 
 header,
@@ -58,7 +58,9 @@ footer {
 }
 
 section {
+    box-sizing: border-box;
 	background-color: #101f47;
+    margin: 2.5rem auto;
 }
 
 a {
@@ -96,7 +98,7 @@ p {
 }
 
 .bold,
-.section-title {
+.title {
 	color: #00c7fc;
 }
 
@@ -137,4 +139,44 @@ header nav ul {
 
 header a {
 	color: #caf0fe;
+}
+
+/* About Me Section */
+
+section#about-me {
+    padding: 2rem 2rem;
+	width: 90%;
+	max-width: 75rem;
+	border-radius: 2rem;
+}
+
+#about-me .container {
+	display: flex;
+    justify-content: space-between;
+}
+
+#about-me .title {
+    margin-bottom: 1rem;
+}
+
+#about-me article {
+    min-width: 13.75rem;
+    max-width: 40.625rem;
+    text-align: justify;
+    flex-shrink: 2;
+}
+
+#about-me figure {
+    margin-left: 3.125rem;
+    min-width: 12.5rem;
+    max-width: 21.875rem;
+    min-height: 12.5rem;
+    max-height: 21.875rem;
+    overflow: hidden;
+}
+
+#about-me figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
