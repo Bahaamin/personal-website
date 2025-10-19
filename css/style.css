@@ -138,3 +138,11 @@ header nav ul {
 header a {
 	color: #caf0fe;
 }
+
+/* About Me Section */
+
+section#about-me {
+	width: 90%;
+	max-width: 75rem;
+	border-radius: 2rem;
+}
