@@ -58,6 +58,7 @@ footer {
 }
 
 section {
+    box-sizing: border-box;
 	background-color: #101f47;
     margin: 2.5rem auto;
 }
