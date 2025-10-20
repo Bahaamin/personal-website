@@ -140,6 +140,10 @@ header a {
 	color: #caf0fe;
 }
 
+.nav-link:hover {
+	color: #fff066;
+}
+
 /* About Me Section */
 
 section#about-me {
