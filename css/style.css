@@ -89,7 +89,7 @@ h2 {
 
 h3 {
 	font-weight: 300;
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 }
 
 p {
@@ -179,4 +179,72 @@ section#about-me {
     max-width: 100%;
     height: auto;
     border-radius: 1rem;
+}
+
+/* Certifications & Skills */
+
+section#certs-skills {
+	width: 85%;
+	max-width: calc(1280px * 0.85);
+	border-radius: 0.5rem;
+	padding: 2rem 2rem;
+}
+
+#certs-skills .title {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+#certs-skills .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Certifications */
+
+#certifications {
+	gap: 2.5rem;
+	line-height: 1;
+	justify-content: space-between;
+}
+
+.button {
+	background-color: #193371;
+	padding: 1rem;
+	line-height: 1;
+	border-radius: 0.2rem;
+}
+
+/* Skills */
+
+#skills {
+	gap: 2rem 2rem;
+	justify-content: space-evenly;
+}
+
+#skills .image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+	width: 4rem;
+	height: 4rem;
+	background-color: #FF9300;
+	border-radius: 0.2rem;
+}
+
+#skills img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Certifications & Skills Devider */
+
+.devider {
+	height: 3px;
+	background-color: #00c7fc;
+	width: 85%;
+	margin: 2rem auto;
+	border-radius: 5px;
 }
