@@ -192,27 +192,27 @@ section#certs-skills {
 
 #certs-skills .title {
 	text-align: center;
-	margin-bottom: 1rem;
+	margin-bottom: 3rem;
 }
 
 #certs-skills .container {
 	display: flex;
-	justify-content: space-evenly;
-	align-content: space-evenly;
 	flex-wrap: wrap;
 }
 
 /* Certifications */
 
 #certifications {
-	min-height: 12.5rem;
-	column-gap: 2.5rem;
+	gap: 2.5rem;
+	line-height: 1;
+	justify-content: space-between;
 }
 
 /* Skills */
 
 #skills {
 	gap: 2rem 2rem;
+	justify-content: space-evenly;
 }
 
 /* Certifications & Skills Devider */
