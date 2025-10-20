@@ -208,6 +208,13 @@ section#certs-skills {
 	justify-content: space-between;
 }
 
+.button {
+	background-color: #193371;
+	padding: 1rem;
+	line-height: 1;
+	border-radius: 0.2rem;
+}
+
 /* Skills */
 
 #skills {
