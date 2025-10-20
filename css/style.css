@@ -222,6 +222,23 @@ section#certs-skills {
 	justify-content: space-evenly;
 }
 
+#skills .image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+	width: 4rem;
+	height: 4rem;
+	background-color: #FF9300;
+	border-radius: 0.2rem;
+}
+
+#skills img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 /* Certifications & Skills Devider */
 
 .devider {
