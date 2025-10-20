@@ -162,6 +162,27 @@ header a {
 	}
 }
 
+@media only screen and (max-width: 480px) {
+	header {
+		height: 5.8125rem;
+	}
+
+	header .container {
+		flex-direction: column;
+		max-width: none;
+		justify-content: space-evenly;
+	}
+
+	header h1 {
+		font-size: 1rem;
+		margin-right: 0;
+	}
+
+	header nav {
+		flex-basis: auto;
+	}
+}
+
 /* About Me Section */
 
 section#about-me {
