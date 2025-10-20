@@ -57,6 +57,10 @@ footer {
 	background-color: #1b3677;
 }
 
+main {
+	margin-top: 6.875rem;
+}
+
 section {
     box-sizing: border-box;
 	background-color: #101f47;
@@ -104,9 +108,12 @@ p {
 /* Header */
 
 header {
+	position: fixed;
+	top: 0;
 	height: 4.3125rem;
 	width: 100%;
 	border-bottom: 1px solid gray;
+	z-index: 999;
 }
 
 header .container {
