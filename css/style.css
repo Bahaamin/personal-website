@@ -127,7 +127,7 @@ header h1 {
 
 header nav {
 	flex-basis: 18.75rem;
-	min-width: 12.5rem;
+	min-width: 15rem;
 	font-size: 1.125rem;
 }
 
