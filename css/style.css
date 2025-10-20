@@ -224,6 +224,26 @@ section#about-me {
     border-radius: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+
+	#about-me .container {
+		flex-flow: column-reverse;
+	}
+
+	#about-me .title {
+		text-align: center;
+	}
+
+	#about-me article {
+		text-align-last: center;
+	}
+
+	#about-me figure {
+		display: none;
+	}
+
+}
+
 /* Certifications & Skills */
 
 section#certs-skills {
