@@ -282,3 +282,11 @@ footer img {
 	display: block;
 	max-width: 100%;
 }
+
+footer .button {
+	/* background-color: #ffffff; */
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0.2rem;
+	padding: 0.15rem 0.3rem 0.3rem;
+}
