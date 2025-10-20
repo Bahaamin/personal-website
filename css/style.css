@@ -208,7 +208,7 @@ section#certs-skills {
 	justify-content: space-between;
 }
 
-.button {
+#certifications .button {
 	background-color: #193371;
 	padding: 1rem;
 	line-height: 1;
