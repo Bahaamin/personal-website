@@ -266,8 +266,7 @@ footer > .container {
 	padding: 0 2rem;
 	margin: 0 auto;
 	flex-direction: column;
-	justify-content: center;
-	row-gap: 1rem;
+	justify-content: space-evenly;
 }
 
 #footer-first-container {
