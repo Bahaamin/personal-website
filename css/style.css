@@ -266,6 +266,7 @@ section#certs-skills {
 /* Certifications */
 
 #certifications {
+	margin: 0 auto;
 	gap: 2.5rem;
 	line-height: 1;
 	justify-content: space-between;
@@ -282,6 +283,7 @@ section#certs-skills {
 /* Skills */
 
 #skills {
+	margin: 0 auto;
 	gap: 2rem 2rem;
 	justify-content: space-evenly;
 }
@@ -320,7 +322,6 @@ section#certs-skills {
 	#certifications {
 		justify-content: space-evenly;
 		max-width: 750px;
-		margin: 0 auto;
 	}
 
 }
