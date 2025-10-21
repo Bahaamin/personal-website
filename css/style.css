@@ -348,6 +348,19 @@ section#certs-skills {
 
 }
 
+@media only screen and (max-width: 480px) {
+
+	#certifications {
+		max-height: none;
+	}
+
+	#certifications .button {
+		width: auto;
+		line-height: 1;
+	}
+
+}
+
 /* Footer */
 
 footer {
