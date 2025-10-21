@@ -330,6 +330,24 @@ section#certs-skills {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+
+	#certifications {
+		flex-direction: column;
+		/* max-width: 21rem; */
+		gap: 1rem;
+		max-height: 30rem;
+		align-content: center;
+	}
+
+	#certifications .button {
+		box-sizing: border-box;
+		width: 10rem;
+		line-height: 1.5;
+	}
+
+}
+
 /* Footer */
 
 footer {
