@@ -315,6 +315,8 @@ section#certs-skills {
 
 @media only screen and (max-width: 1200px) {
 
+	/* Certifications */
+
 	#certifications {
 		justify-content: space-evenly;
 		max-width: 750px;
@@ -325,12 +327,16 @@ section#certs-skills {
 
 @media only screen and (max-width: 900px) {
 
+	/* Certifications */
+
 	#certifications {
 		max-width: 512px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
+
+	/* Certifications */
 
 	#certifications {
 		flex-direction: column;
@@ -348,6 +354,8 @@ section#certs-skills {
 }
 
 @media only screen and (max-width: 480px) {
+
+	/* Certifications */
 
 	#certifications {
 		max-height: none;
