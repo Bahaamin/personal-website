@@ -334,7 +334,6 @@ section#certs-skills {
 
 	#certifications {
 		flex-direction: column;
-		/* max-width: 21rem; */
 		gap: 1rem;
 		max-height: 30rem;
 		align-content: center;
