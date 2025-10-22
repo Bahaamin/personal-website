@@ -346,6 +346,15 @@ section#certs-skills {
 	#certifications {
 		max-width: 512px;
 	}
+
+	/* Skills */
+
+	#skills {
+		grid-template-columns: repeat(3, 4rem);
+		justify-content: space-around;
+		gap: 1rem;
+	}
+
 }
 
 @media only screen and (max-width: 768px) {
