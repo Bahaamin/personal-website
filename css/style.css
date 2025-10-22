@@ -168,7 +168,7 @@ header {
 	z-index: 999;
 }
 
-header .flex {
+header > .flex {
 	justify-content: space-between;
 	align-items: center;
 }
@@ -190,8 +190,7 @@ header nav {
 	font-size: 1.125rem;
 }
 
-header nav ul {
-	display: flex;
+header nav .flex {
 	justify-content: space-between;
 }
 
