@@ -66,6 +66,7 @@ section {
     box-sizing: border-box;
 	background-color: #101f47;
     margin: 2.5rem auto;
+	padding: 2rem 2rem;
 }
 
 a {
@@ -248,7 +249,6 @@ header .button.lang {
 /* About Me Section */
 
 section#about-me {
-    padding: 2rem 2rem;
 	width: 90%;
 	border-radius: 2rem;
 }
@@ -308,7 +308,6 @@ section#about-me {
 section#certs-skills {
 	width: 85%;
 	border-radius: 0.5rem;
-	padding: 2rem 2rem;
 }
 
 #certs-skills .title {
