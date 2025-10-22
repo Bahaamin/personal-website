@@ -100,6 +100,10 @@ p {
 	color: #caf0fe;
 }
 
+.icon {
+	width: 2rem;
+}
+
 .bold,
 .title {
 	color: #00c7fc;
