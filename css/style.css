@@ -149,11 +149,13 @@ header {
 	z-index: 999;
 }
 
-header .container {
-	box-sizing: border-box;
-	display: flex;
+header .flex {
 	justify-content: space-between;
 	align-items: center;
+}
+
+header .container {
+	box-sizing: border-box;
 	max-width: calc(80rem * 0.9);
 	height: 100%;
 	margin: 0 auto;
@@ -197,14 +199,18 @@ header a {
 }
 
 @media only screen and (max-width: 480px) {
+
 	header {
 		height: 5.8125rem;
 	}
 
-	header .container {
+	header .flex {
 		flex-direction: column;
-		max-width: none;
 		justify-content: space-evenly;
+	}
+
+	header .container {
+		max-width: none;
 	}
 
 	header h1 {
@@ -215,6 +221,7 @@ header a {
 	header nav {
 		flex-basis: auto;
 	}
+
 }
 
 /* About Me Section */
