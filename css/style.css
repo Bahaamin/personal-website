@@ -62,6 +62,7 @@ main {
 }
 
 section {
+	max-width: calc(80rem * 0.85);
     box-sizing: border-box;
 	background-color: #101f47;
     margin: 2.5rem auto;
@@ -161,7 +162,6 @@ header .flex {
 }
 
 header .container {
-	max-width: calc(80rem * 0.9);
 	height: 100%;
 	margin: 0 auto;
 	padding: 0 2rem;
@@ -234,7 +234,6 @@ header a {
 section#about-me {
     padding: 2rem 2rem;
 	width: 90%;
-	max-width: calc(80rem * 0.9);
 	border-radius: 2rem;
 }
 
@@ -292,7 +291,6 @@ section#about-me {
 
 section#certs-skills {
 	width: 85%;
-	max-width: calc(1280px * 0.85);
 	border-radius: 0.5rem;
 	padding: 2rem 2rem;
 }
@@ -441,7 +439,6 @@ footer {
 }
 
 footer > .container {
-	max-width: calc(80rem * 0.9);
 	height: 100%;
 	padding: 0 2rem;
 	margin: 0 auto;
