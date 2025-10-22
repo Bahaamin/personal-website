@@ -140,6 +140,17 @@ footer .container {
 	padding: 0 2rem;
 }
 
+.button {
+	line-height: 1;
+	text-align: center;
+	border-radius: 0.2rem;
+}
+
+.lang {
+	color: #fff;
+	border: 1px solid #fff;
+}
+
 .bold,
 .title {
 	color: #00c7fc;
