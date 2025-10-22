@@ -306,10 +306,8 @@ section#certs-skills {
 	border-radius: 0.2rem;
 }
 
-#skills img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+#skills .icon {
+	width: 3rem;
 }
 
 /* Certifications & Skills Devider */
