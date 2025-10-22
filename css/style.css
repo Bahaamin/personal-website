@@ -100,6 +100,12 @@ p {
 	color: #caf0fe;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 .icon {
 	width: 2rem;
 }
