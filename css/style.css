@@ -202,6 +202,11 @@ header a {
 	color: #fff066;
 }
 
+header .button.lang {
+	padding: 0rem 0.3rem;
+	font-size: smaller;
+}
+
 @media only screen and (max-width: 768px) {
 	header h1 {
 		font-size: 1.5rem;
@@ -467,8 +472,7 @@ footer img {
 	max-width: 100%;
 }
 
-footer .button {
-	/* background-color: #ffffff; */
+footer .button.lang {
 	color: #fff;
 	border: 1px solid #fff;
 	padding: 0.15rem 0.3rem 0.3rem;
