@@ -112,6 +112,10 @@ img {
 	justify-content: center;
 }
 
+.icon {
+	width: 2rem;
+}
+
 .flex {
 	display: flex;
 }
@@ -133,10 +137,6 @@ footer .container,
 header .container,
 footer .container {
 	padding: 0 2rem;
-}
-
-.icon {
-	width: 2rem;
 }
 
 .bold,
