@@ -285,10 +285,6 @@ header .button.lang {
 
 @media only screen and (max-width: 768px) {
 
-	#about-me .flex {
-		flex-flow: column-reverse;
-	}
-
 	#about-me .title {
 		text-align: center;
 	}
