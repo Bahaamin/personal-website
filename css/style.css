@@ -100,6 +100,16 @@ p {
 	color: #caf0fe;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.icon {
+	width: 2rem;
+}
+
 .bold,
 .title {
 	color: #00c7fc;
@@ -145,6 +155,10 @@ header nav ul {
 
 header a {
 	color: #caf0fe;
+}
+
+.grid {
+	display: grid;
 }
 
 .nav-link:hover {
@@ -283,9 +297,10 @@ section#certs-skills {
 /* Skills */
 
 #skills {
-	margin: 0 auto;
-	gap: 2rem 0.5rem;
-	justify-content: space-around;
+	grid-template-columns: repeat(9, 4rem);
+	column-gap: 1rem;
+	justify-content: space-between;
+	justify-items: center;
 }
 
 #skills .image-container {
@@ -299,10 +314,8 @@ section#certs-skills {
 	border-radius: 0.2rem;
 }
 
-#skills img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+#skills .icon {
+	width: 3rem;
 }
 
 /* Certifications & Skills Devider */
