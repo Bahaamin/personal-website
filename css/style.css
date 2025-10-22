@@ -248,7 +248,7 @@ header .button.lang {
 
 /* About Me Section */
 
-section#about-me {
+#about-me {
 	width: 90%;
 	border-radius: 2rem;
 }
@@ -305,7 +305,7 @@ section#about-me {
 
 /* Certifications & Skills */
 
-section#certs-skills {
+#certs-skills {
 	width: 85%;
 	border-radius: 0.5rem;
 }
