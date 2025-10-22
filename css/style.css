@@ -334,7 +334,7 @@ section#certs-skills {
 
 	#certifications {
 		justify-content: space-evenly;
-		max-width: 750px;
+		max-width: 46.875rem;
 	}
 
 }
@@ -344,7 +344,7 @@ section#certs-skills {
 	/* Certifications */
 
 	#certifications {
-		max-width: 512px;
+		max-width: 32rem;
 	}
 
 	/* Skills */
