@@ -114,6 +114,21 @@ img {
 	display: grid;
 }
 
+.container {
+	box-sizing: border-box;
+}
+
+header .container,
+footer .container,
+#about-me {
+	max-width: calc(80rem * 0.9);
+}
+
+header .container,
+footer .container {
+	padding: 0 2rem;
+}
+
 .icon {
 	width: 2rem;
 }
