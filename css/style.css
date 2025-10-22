@@ -147,6 +147,10 @@ header a {
 	color: #caf0fe;
 }
 
+.grid {
+	display: grid;
+}
+
 .nav-link:hover {
 	color: #fff066;
 }
