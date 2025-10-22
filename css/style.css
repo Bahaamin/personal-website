@@ -226,8 +226,7 @@ section#about-me {
 	border-radius: 2rem;
 }
 
-#about-me .container {
-	display: flex;
+#about-me .flex {
     justify-content: space-between;
 }
 
@@ -259,7 +258,7 @@ section#about-me {
 
 @media only screen and (max-width: 768px) {
 
-	#about-me .container {
+	#about-me .flex {
 		flex-flow: column-reverse;
 	}
 
@@ -291,8 +290,7 @@ section#certs-skills {
 	margin-bottom: 3rem;
 }
 
-#certs-skills .container {
-	display: flex;
+#certs-skills .flex {
 	flex-wrap: wrap;
 }
 
@@ -431,10 +429,6 @@ footer {
 	width: 100%;
 	height: 10rem;
 	line-height: 1;
-}
-
-footer .container {
-	display: flex;
 }
 
 footer > .container {
