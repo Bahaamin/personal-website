@@ -225,7 +225,7 @@ header .button.lang {
 		height: 5.8125rem;
 	}
 
-	header .flex {
+	header > .flex {
 		flex-direction: column;
 		justify-content: space-evenly;
 	}
