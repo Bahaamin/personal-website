@@ -65,8 +65,10 @@ section {
     box-sizing: border-box;
     margin: 2.5rem auto;
 	padding: 2rem 2rem;
+	width: 85%;
 	max-width: calc(80rem * 0.85);
 	background-color: #101f47;
+	border-radius: 0.5rem;
 }
 
 a {
@@ -299,11 +301,6 @@ header .button.lang {
 }
 
 /* Certifications & Skills */
-
-#certs-skills {
-	width: 85%;
-	border-radius: 0.5rem;
-}
 
 #certs-skills .title {
 	margin-bottom: 3rem;
