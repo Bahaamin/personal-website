@@ -285,7 +285,7 @@ section#certs-skills {
 /* Skills */
 
 #skills {
-	grid-template-columns: repeat(9, 1fr);
+	grid-template-columns: repeat(9, 4rem);
 	column-gap: 1rem;
 	justify-content: space-between;
 	justify-items: center;
