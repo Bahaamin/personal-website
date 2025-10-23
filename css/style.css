@@ -401,12 +401,12 @@ header .button.lang {
 
 /* Certifications & Skills */
 
-#certs-skills .title {
+#certifications-and-skills .title {
 	margin-bottom: 3rem;
 	text-align: center;
 }
 
-#certs-skills .flex {
+#certifications-and-skills .flex {
 	flex-wrap: wrap;
 }
 
