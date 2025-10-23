@@ -8,3 +8,5 @@ let scrolled = function() {
         header.classList.remove('scrolled');
     }
 }
+
+window.addEventListener('scroll', scrolled);
