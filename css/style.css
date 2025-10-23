@@ -163,7 +163,7 @@ footer .container {
 
 header {
 	z-index: 999;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	width: 100%;
 	height: 4.3125rem;
