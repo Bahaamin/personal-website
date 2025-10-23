@@ -57,9 +57,16 @@ footer {
 	background-color: #1b3677;
 }
 
+main {
+	flex-direction: column;
+	row-gap: 2.5rem;
+	align-items: center;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
 section {
     box-sizing: border-box;
-    margin: 2.5rem auto;
 	padding: 2rem 2rem;
 	width: 85%;
 	max-width: calc(80rem * 0.85);
