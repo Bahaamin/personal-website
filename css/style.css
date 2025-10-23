@@ -358,19 +358,20 @@ header .button.lang {
 }
 
 #about-me article {
-    flex-shrink: 2;
-    min-width: 13.75rem;
-    max-width: 40.625rem;
-    text-align: justify;
+	flex: 2 1 13.75rem;
+	min-width: 13.75rem;
+	max-width: 40.625rem;
+	text-align: justify;
 }
 
 #about-me figure {
-    margin-left: 3.125rem;
-    min-width: 12.5rem;
-    max-width: 21.875rem;
-    min-height: 12.5rem;
-    max-height: 21.875rem;
-    overflow: hidden;
+	margin-left: 3.125rem;
+	flex: 1 1 12.5rem;
+	min-width: 12.5rem;
+	max-width: 21.875rem;
+	min-height: 12.5rem;
+	max-height: 21.875rem;
+	overflow: hidden;
 }
 
 #about-me figure img {
