@@ -168,6 +168,12 @@ header {
 	border-bottom: 1px solid gray;
 }
 
+.backdrop, .backdrop-edge {
+	z-index: -1;
+	display: none;
+}
+
+
 header > .flex {
 	justify-content: space-between;
 	align-items: center;
