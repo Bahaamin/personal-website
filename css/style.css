@@ -449,11 +449,11 @@ footer > .container {
 	height: 100%;
 }
 
-#footer-first-container {
+#message-container.flex {
 	justify-content: space-between;
 }
 
-#footer-second-container {
+#contact-container.flex {
 	column-gap: 1rem;
 }
 
