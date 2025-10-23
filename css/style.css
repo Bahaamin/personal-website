@@ -158,6 +158,8 @@ footer .container {
 /* Header */
 
 header {
+--thickness: 4px;
+
 	z-index: 100;
 	position: sticky;
 	top: 0;
