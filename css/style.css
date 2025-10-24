@@ -560,3 +560,10 @@ footer > .container {
 footer .button.lang {
 	padding: 0.15rem 0.3rem 0.3rem;
 }
+
+/* Language buttons removed from flow until future update */
+
+.lang,
+header ul li:last-child {
+	display: none;
+}
